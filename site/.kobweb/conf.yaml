@@ -1,0 +1,14 @@
+site:
+  title: "KeyProviderDemo"
+
+server:
+  files:
+    dev:
+      contentRoot: "build/processedResources/js/main/public"
+      script: "build/dist/js/developmentExecutable/keyproviderdemo.js"
+      api: "build/libs/keyproviderdemo.jar"
+    prod:
+      script: "build/dist/js/productionExecutable/keyproviderdemo.js"
+      siteRoot: ".kobweb/site"
+
+  port: 8080
