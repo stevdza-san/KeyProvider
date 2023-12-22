@@ -6,6 +6,6 @@ pluginManagement {
     }
 }
 
-rootProject.name = "keyproviderdemo"
+rootProject.name = "KeyProviderDemo"
 
 include(":site")

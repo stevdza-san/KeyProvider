@@ -4,6 +4,7 @@ plugins {
     alias(libs.plugins.kotlin.multiplatform)
     alias(libs.plugins.jetbrains.compose)
     alias(libs.plugins.kobweb.application)
+    alias(libs.plugins.serialization.plugin)
     // alias(libs.plugins.kobwebx.markdown)
 }
 
@@ -40,6 +41,7 @@ kotlin {
         val jvmMain by getting {
             dependencies {
                 compileOnly(libs.kobweb.api) // Provided by Kobweb backend at runtime
+                implementation(libs.kotlinx.serialization)
             }
         }
     }
