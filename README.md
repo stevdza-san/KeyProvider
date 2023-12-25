@@ -1,4 +1,4 @@
-# Secure API Keys with a Public-Key Cryptography on Android (Android App)
+# Secure API Keys with a Public-Key Cryptography on Android (Kobweb Server)
 <p align="center">
   <a href="" align="center">Online Course</a>
 </p>
