@@ -5,6 +5,7 @@ plugins {
     alias(libs.plugins.jetbrains.compose)
     alias(libs.plugins.kobweb.application)
     alias(libs.plugins.serialization.plugin)
+    alias(libs.plugins.compose.compiler)
     // alias(libs.plugins.kobwebx.markdown)
 }
 
